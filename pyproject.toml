@@ -4,10 +4,10 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "flux-code-ai"
-version = "0.1.0"
-description = "Local-first coding assistant with approval-first changes"
+version = "0.2.0"
+description = "Local-first coding assistant with browser UI and approval-first changes"
 requires-python = ">=3.10"
-dependencies = []
+dependencies = ["streamlit>=1.35,<2"]
 
 [project.optional-dependencies]
 test = ["pytest>=8"]
